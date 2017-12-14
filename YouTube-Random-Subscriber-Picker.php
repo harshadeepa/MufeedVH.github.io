@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<head>
+  <title>YouTube Random Subscriber Picker</title>
+  <meta name="description" content="Pick or select a random subscriber of your YouTube channel for doing giveaways and lucky contents." />
+  <meta name="keywords" content="youtube random comment picker, do giveaway, do lucky contest, pick a random subscriber of my youtube channel, select a random subscriber of my youtube channel" />
+<body>
+
 <?php
 
 /**
@@ -183,3 +190,6 @@ subscriptionsListByChannelId($service,
     'snippet,contentDetails', 
     array('channelId' => 'UCBnnsrvmuQ7tFdTL511dzBQ'));
 ?>
+
+</body>
+</html>
