@@ -315,24 +315,23 @@ input[type=submit]:hover {
     padding: 20px;
 }
 </style>
-</head>
-<body>
-
-<h3>Contact Form</h3>
+<div class="w3-container w3-card w3-white">
+<h3 class="w3-text-grey w3-padding-16"><i class="fa fa-bars fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Contact Form</h3>
 
 <div class="container">
-  <form action="/action_page.php">
+  <form action="mailto:mufeedvh@gmail.com">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
+    <label for="service">Select Service</label>
+    <select id="country" name="service">
+      <option value="website development">Web Development</option>
+      <option value="web designing">Web Designing</option>
+      <option value="search engine optimization">SEO (Search Engine Optimization)</option>
+      <option value="mobile app development">Mobile App Development</option>
     </select>
 
     <label for="subject">Subject</label>
@@ -341,6 +340,7 @@ input[type=submit]:hover {
     <input type="submit" value="Submit">
   </form>
 </div>
+      </div>
       </div>
     
     <!-- End Right Column -->
