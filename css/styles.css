@@ -1,0 +1,31 @@
+/* CSS Applicable For All Pages */
+
+body  {
+    background-image: url("images/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Register Part CSS */
+.registerbody {
+  background-image: url('images/background-image.jpg');
+}
+
+.registerinput {
+  padding: 50px;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 5px;
+}
+.registerinput:hover {
+  box-shadow: 5px 5px 5px green;
+}
+
+.registerbutton {
+
+}
+.registerbutton:hover {
+
+}
+.registerbutton:active {
+
+}
