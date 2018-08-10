@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Learn XSS Here | Mufeed VH</title>
+  <meta name="description" content="Learn XSS Practice Sample.">
+</head>
+<body background="lightgray">
+<div align="center" style="margin-top: 50px;">
+  <input id="query" type="text" placeholder="Search for anything" style="padding: 20px; background-color: skyblue;">
+  <button onlick="search()" style="padding: 10px; background-color: green;">Search</button>
+  <p id="xss"></p>
+</div>
+<script type="text/javascript">
+  function search() {
+    var query = document.getElementById('query').value;
+    document.write('<br>'+query+' is not available, Check later!');
+  }
+</script>
+</body>
+</html>
